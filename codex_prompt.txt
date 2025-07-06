@@ -1,0 +1,21 @@
+ Create a complete Python project that demonstrates core use cases of LangChain and LangGraph. The project should be structured, modular, and beginner-friendly. Include    │
+│    working code and instructions. The project should cover:                                                                                                                   │
+│    LangChain Examples (in langchain/):                                                                                                                                        │
+│    prompt_template.py – Using PromptTemplate with variables.                                                                                                                  │
+│    simple_chain.py – Using LLMChain with OpenAI for simple tasks.                                                                                                             │
+│    chain_with_memory.py – A chat system using ConversationBufferMemory.                                                                                                       │
+│    rag_basic.py – Load a local .txt file, chunk it, embed with OpenAIEmbeddings, store in Chroma, and build a RetrievalQA system.                                             │
+│    agent_with_tools.py – Use tools like calculator and web search via LangChain agent.                                                                                        │
+│    chat_model_custom_prompt.py – Using ChatOpenAI with System + User roles.                                                                                                   │
+│    LangGraph Examples (in langgraph/):                                                                                                                                        │
+│    01_basic_chain_graph.py – Graph with conditional routing (summarize if long, echo if short).                                                                               │
+│    02_tool_agent_graph.py – LangGraph wrapping a tool-using agent.                                                                                                            │
+│    03_triage_memory_graph.py – Simulate an email triage loop using a stateful graph with classification logic.                                                                │
+│    Folder Structure:                                                                                                                                                          │
+│    .env for OpenAI API keys                                                                                                                                                   │
+│    requirements.txt with langchain, langgraph, openai, chromadb, python-dotenv                                                                                                │
+│    README.md with clear setup and run instructions                                                                                                                            │
+│    /data/sample_docs/ for sample text files used in RAG                                                                                                                       │
+│    /common/ for shared helpers like load_env.py                                                                                                                               │
+│    Add comments to each file and make it easy to run each module independently using python <filename.py>. The repo should serve as a practical LangChain + LangGraph starter │
+│     kit.

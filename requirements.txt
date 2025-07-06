@@ -1,0 +1,11 @@
+langchain-core==0.3.68
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-openai==0.3.27
+langgraph==0.5.1
+openai==1.93.0
+chromadb==1.0.15
+python-dotenv==1.1.1
+pypdf==5.7.0
+colorama==0.4.6
+numexpr==2.11.0
